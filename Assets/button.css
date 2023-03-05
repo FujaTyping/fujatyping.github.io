@@ -1,4 +1,4 @@
-#bottone5 {
+#DefaultBT {
     align-items: center;
     background-color: #FFFFFF;
     border: 1px solid rgba(0, 0, 0, 0.1);
@@ -24,18 +24,18 @@
     width: auto;
 }
 
-#bottone5:hover,
-#bottone5:focus {
+#DefaultBT:hover,
+#DefaultBT:focus {
     border-color: rgba(0, 0, 0, 0.15);
     box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
     color: rgba(0, 0, 0, 0.65);
 }
 
-#bottone5:hover {
+#DefaultBT:hover {
     transform: translateY(-1px);
 }
 
-#bottone5:active {
+#DefaultBT:active {
     background-color: #F0F0F1;
     border-color: rgba(0, 0, 0, 0.15);
     box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
