@@ -6,13 +6,31 @@
     <title>FujaTyping | Home</title>
     <link rel="icon" href="Assets/Fav.ico" type="image/x-icon">
     <link href="index.css" rel="stylesheet" type="text/css">
+    <link href="Assets/ui.css" rel="stylesheet" type="text/css">
+    <link href="Assets/button.css" rel="stylesheet" type="text/css">
 </head>
+<script language=JavaScript>
+    var message = "Disabled";
+    
+    function rtclickcheck(keyp){ if (navigator.appName == "Netscape" && keyp.which == 3){ alert(message); return false; }
+    
+    if (navigator.appVersion.indexOf("MSIE") != -1 && event.button == 2) { alert(message); return false; } }
+    
+    document.onmousedown = rtclickcheck;
+</script>
 <body>
     <div class="Start">
         <video autoplay loop muted plays-inline class="background-VDO">
             <source src="Assets/Background.mp4" type="video/mp4">
         </video>
-        <h1>Soon !</h1>
+        <div class="main">
+            <img width="200px" height="200px" src="Assets/Profile.png">
+            <h1>Siraphop Sukchu</h1>
+            <h2>เด็กชาย สิรภพ สุขชู อายุ 14 ปี</h2>
+            <h2>กำลังศึกษาอยู่ระดับ มัธยมศึกษาปีที่ 2</h2>
+            <br>
+            <button id="bottone5">ผลงานทั้งหมด</button>
+        </div>
     </div>
 </body>
 </html>

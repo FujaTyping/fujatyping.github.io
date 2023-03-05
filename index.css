@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
 
 *{
-    font-family: Bowlby One SC;
+    font-family: Kanit;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -13,11 +14,11 @@ div.Start {
     display: flex;
     align-items: center;
     justify-content: center;
+    color: rgb(17, 17, 17);
 }
 
 h1 {
-    color: white;
-    font-size: 95px;
+    font-size: 40px;
 }
 
 .background-VDO{
