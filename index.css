@@ -8,6 +8,16 @@
     box-sizing: border-box;
 }
 
+footer {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0);
+    color: #ffffff;
+    padding: 10px;
+ } 
+
 div.Start {
     width: 100%;
     height: 100vh;
