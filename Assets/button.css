@@ -58,6 +58,7 @@
     display: flex;
     height: 3em;
     width: 70px;
+    font-weight: bold;
     align-items: center;
     justify-content: center;
     background-color: #eeeeee4b;
