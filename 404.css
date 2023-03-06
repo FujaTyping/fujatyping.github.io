@@ -35,6 +35,12 @@ div.Start {
     font-size: 40px;
 }
 
+.Inl {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
 @media only screen and (max-width: 900px) {
     .Header {
       font-size: 40px;
