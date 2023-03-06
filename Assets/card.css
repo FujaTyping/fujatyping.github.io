@@ -14,6 +14,12 @@
     animation: fade 1s linear;
 }
 
+@media only screen and (max-width: 620px) {
+    .card {
+      margin-top: 30px;
+    }
+}
+
 .card-details {
     color: black;
     height: 100%;

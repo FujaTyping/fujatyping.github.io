@@ -16,7 +16,7 @@ footer {
     background-color: rgba(0);
     color: #ffffff;
     padding: 10px;
- } 
+} 
 
 div.Start {
     width: 100%;
@@ -27,8 +27,21 @@ div.Start {
     color: rgb(37, 36, 36, 0.8);
 }
 
-h1 {
+.Header {
+    font-size: 80px;
+}
+
+.Header2 {
     font-size: 40px;
+}
+
+@media only screen and (max-width: 620px) {
+    .Header {
+      font-size: 40px;
+    }
+    .Header2 {
+        font-size: 30px;
+    }
 }
 
 .background-VDO{

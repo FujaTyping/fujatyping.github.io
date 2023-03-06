@@ -12,6 +12,23 @@
     animation: fade 1s linear;
 }
 
+.Cerimg {
+    width: 350px; 
+    height: 250px;
+}
+
+@media only screen and (max-width: 620px) {
+    .card {
+        margin-top: 30px;
+        width: 295px;
+        height: 195px;
+    }
+    .Cerimg {
+        width: 290px;
+        height: 190px;
+    }
+}
+
 .card-button {
     transform: translate(-50%, 125%);
     width: 60%;
