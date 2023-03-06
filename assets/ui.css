@@ -1,0 +1,15 @@
+div.main {
+    border: 5px solid white;
+    border-radius: 50px;
+    box-sizing: border-box;
+    padding: 50px;
+    height: 500px;
+    width: 1000px;
+    overflow: auto;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}

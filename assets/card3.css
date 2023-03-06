@@ -1,0 +1,51 @@
+.card {
+  width: 390px;
+  height: 254px;
+  border-radius: 20px;
+  background-color: white;
+  position: relative;
+  padding: 1.8rem;
+  border: 2px solid #c3c6ce;
+  transition: 0.5s ease-out;
+  overflow: visible;
+  display: inline-block;
+  margin-right: 1rem;
+  vertical-align: top;
+  background-repeat: no-repeat;
+  background-position: center;
+  animation: fade 1s linear;
+}
+
+@media only screen and (max-width: 950px) {
+  .card {
+    margin-top: 30px;
+    width: 290px;
+  }
+}
+
+.card-details {
+  color: black;
+  height: 100%;
+  gap: .5em;
+  bottom: 0;
+}
+
+.text-body {
+  color: rgb(134, 134, 134);
+}
+
+
+.text-title {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.card:hover {
+  border-color: #080808;
+  box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+}
+
+@keyframes fade {
+  0%,100% { opacity: 0 }
+  100% { opacity: 1 }
+}
