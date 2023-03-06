@@ -14,11 +14,11 @@
   background-repeat: no-repeat;
   background-position: center;
   animation: fade 1s linear;
+  margin-top: 30px;
 }
 
 @media only screen and (max-width: 950px) {
   .card {
-    margin-top: 30px;
     width: 290px;
   }
 }

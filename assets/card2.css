@@ -20,7 +20,6 @@
 
 @media only screen and (max-width: 950px) {
     .card {
-        margin-top: 30px;
         width: 295px;
         height: 195px;
     }
