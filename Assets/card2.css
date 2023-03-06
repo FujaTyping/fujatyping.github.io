@@ -10,6 +10,7 @@
     margin-right: 1rem;
     vertical-align: top;
     animation: fade 1s linear;
+    margin-top: 30px;
 }
 
 .Cerimg {
@@ -17,7 +18,7 @@
     height: 250px;
 }
 
-@media only screen and (max-width: 620px) {
+@media only screen and (max-width: 950px) {
     .card {
         margin-top: 30px;
         width: 295px;
