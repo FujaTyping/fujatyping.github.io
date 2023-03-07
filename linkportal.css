@@ -1,0 +1,40 @@
+button {
+    padding: 15px;
+    border-radius: 50px;
+    border: 0;
+    background-color: white;
+    font-size: 16px;
+    transition: 0.5s ease;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    width: 550px;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 950px) {
+    button {
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    button {
+        width: 200px;
+    }
+}
+
+button:hover {
+    background-color: hsl(286, 80%, 48%);
+    color: hsl(0, 0%, 100%);
+    transform: translateY(-5px);
+}
+
+button:active {
+    background-color: hsl(286, 80%, 48%);
+    color: hsl(0, 0%, 100%);
+    transform: translateY(0);
+}
