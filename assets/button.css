@@ -15,7 +15,7 @@
     min-height: 3rem;
     padding: calc(.875rem - 1px) calc(1.5rem - 1px);
     text-decoration: none;
-    transition: all 250ms;
+    transition: 0.5s ease;
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
@@ -50,7 +50,7 @@
 }
 
 #DefaultBT:hover {
-    transform: translateY(-1px);
+    transform: translateY(-5px);
 }
 
 #DefaultBT:active {
@@ -102,5 +102,5 @@
 }
 
 .backBT:hover {
-    transform: translateY(-2px);
+    transform: translateY(-5px);
 }
