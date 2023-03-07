@@ -1,3 +1,15 @@
+body {
+    background-color: black;
+}
+
+div.Portalstart {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 button {
     padding: 15px;
     border-radius: 50px;
@@ -13,6 +25,7 @@ button {
     text-align: center;
     justify-content: center;
     margin-bottom: 15px;
+    animation: slideInFromBottom 0.5s ease-out;
 }
 
 @media only screen and (max-width: 950px) {
@@ -23,7 +36,18 @@ button {
 
 @media only screen and (max-width: 500px) {
     button {
-        width: 200px;
+        width: 300px;
+    }
+}
+
+@keyframes slideInFromBottom {
+    0% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0%);
+      opacity: 1;
     }
 }
 
@@ -37,4 +61,26 @@ button:active {
     background-color: hsl(286, 80%, 48%);
     color: hsl(0, 0%, 100%);
     transform: translateY(0);
+}
+
+.Portalbackground-VDO{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+@media (min-aspect-ratio:16/9) {
+    .Portalbackground-VDO{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio:16/9) {
+    .Portalbackground-VDO{
+        width: auto;
+        height: 100%;
+    }
 }
