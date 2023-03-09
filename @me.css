@@ -1,0 +1,21 @@
+.infoBT {
+    padding: 0.6em 1em;
+    border: 0px #000000;
+    border-radius: 5px;
+    transition: ease-in-out 0.3s;
+    background-color: transparent;
+    width: 250px;
+    color: #000000;
+    background-color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-right: 8px;
+}
+
+.infoBT:hover {
+    transform: scale(1) rotate(3deg);
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
