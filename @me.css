@@ -12,10 +12,16 @@
     font-size: 16px;
     margin-top: 10px;
     margin-right: 8px;
+    animation: fade 1s ease-out;
 }
 
 .infoBT:hover {
     transform: scale(1) rotate(3deg);
     background-color: #ffffff;
     color: rgb(0, 0, 0);
+}
+
+@keyframes fade {
+    0%,100% { opacity: 0 }
+    100% { opacity: 1 }
 }
