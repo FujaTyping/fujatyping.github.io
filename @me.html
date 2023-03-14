@@ -10,13 +10,21 @@
     <link href="@me.css" rel="stylesheet" type="text/css">
     <link href="assets/ui.css" rel="stylesheet" type="text/css">
     <link href="assets/button.css" rel="stylesheet" type="text/css">
+    <link href="loader.css" rel="stylesheet" type="text/css">
+    <script src="loader.js"></script>
     <script src="app.js"></script>
     <script src="disable.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 </head>
 <body>
-    <div class="Start">
-        <video autoplay loop muted plays-inline class="background-VDO">
+    <div id="loader" class="Start">
+        <div class="loader">
+            <div class="square-1 bsquare"></div>
+            <div class="square-2 bsquare"></div>
+        </div>
+    </div>
+    <div id="app" class="Start">
+        <video id="bg" style="display: none;" autoplay loop muted plays-inline class="background-VDO">
             <source src="assets/Background.mp4" type="video/mp4">
         </video>
         <div class="main">
